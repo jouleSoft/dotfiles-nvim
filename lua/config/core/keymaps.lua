@@ -35,3 +35,6 @@ keymap.set('n', '<leader>wc', '<c-w>c', {desc = 'Close window'})
 -- close other windows
 keymap.set('n', '<leader>wo', '<c-w>o', {desc = 'Close all other windows'})
 
+-- open lazy
+keymap.set('n', '<leader>ll', '<CMD>Lazy<CR>', {desc = 'Open'})
+

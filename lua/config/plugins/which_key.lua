@@ -8,9 +8,10 @@ return {
   opts = function()
     require("which-key").register({
       ["<leader>f"] = { name = "+File" },
-      ["<leader>w"] = { name = "+Window" },
+      ["<leader>l"] = { name = "+Lazy" },
       ["<leader>n"] = { name = "+NvimTree" },
       ["<leader>q"] = { name = "+Quit" },
+      ["<leader>w"] = { name = "+Window" },
     })
   end,
 }
