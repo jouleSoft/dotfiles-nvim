@@ -9,6 +9,7 @@ return {
     require("which-key").register({
       ["<leader>b"] = { name = "+Buffers" },
       ["<leader>f"] = { name = "+File" },
+      ["<leader>g"] = { name = "+Neogit" },
       ["<leader>l"] = { name = "+Lazy" },
       ["<leader>n"] = { name = "+NvimTree" },
       ["<leader>q"] = { name = "+Quit" },
