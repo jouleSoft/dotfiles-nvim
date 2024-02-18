@@ -19,8 +19,6 @@ keymap.set('n', '<leader>bb', '<CMD>Telescope buffers<CR>', {desc = 'Change buff
 --
 -- keymaps for file management
 keymap.set('n', '<leader>fs', ':w<CR>', {desc = 'Save file'})
-keymap.set('n', '<leader>ff', '<CMD>Telescope find_files<CR>', {desc = 'Find files (Telescope)'})
-keymap.set('n', '<leader>fg', '<CMD>Telescope live_grep<CR>', {desc = 'Grep files (Telescope)'})
 
 -- LAZY --
 --
