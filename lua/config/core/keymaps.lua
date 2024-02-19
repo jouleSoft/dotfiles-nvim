@@ -5,7 +5,7 @@ local keymap = vim.keymap
 
 -- quit
 keymap.set('n', '<leader>qq', ':q<CR>', {desc = 'Quit current buffer (neovim if only one buffer)'})
-keymap.set('n', '<leader>qa', ':qa<CR>', {desc = 'Quit neovim (close all)'})
+keymap.set('n', '<leader>qQ', ':qa<CR>', {desc = 'Quit neovim (close all)'})
 keymap.set('n', '<leader>q!', ':qa!<CR>', {desc = 'Quit neovim (close all without save)'})
 
 -- buffers
