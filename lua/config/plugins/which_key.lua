@@ -10,7 +10,7 @@ return {
       ["<leader><tab>"] = { name = "+Tabs" },
       ["<leader>b"] = { name = "+Buffers" },
       ["<leader>f"] = { name = "+File" },
-      ["<leader>g"] = { name = "+Neogit" },
+      ["<leader>g"] = { name = "+Git" },
       ["<leader>h"] = { name = "+Help" },
       ["<leader>l"] = { name = "+LSP" },
       ["<leader>lf"] = { name = "+Find" },

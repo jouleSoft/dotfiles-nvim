@@ -27,9 +27,16 @@ return {
         "lua_ls",
         "emmet_ls",
         "pyright",
+        "bashls",
       },
       -- auto-install configured servers (with lspconfig)
       automatic_installation = true, -- not the same as ensure_installed
     })
+
+    -- SET KEYMAPS --
+    local keymap = vim.keymap
+
+    -- open
+    keymap.set('n', '<leader>om', '<cmd>Mason<cr>', { desc = 'Open Mason' })
   end,
 }
