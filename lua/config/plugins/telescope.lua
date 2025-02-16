@@ -69,8 +69,8 @@ return {
     keymap.set('n', '<leader>hk', '<cmd>Telescope keymaps<cr>', { desc = 'Telescope show keymaps' })
 
     -- git
-    keymap.set('n', '<leader>ogb', '<cmd>Telescope git_branches<cr>', { desc = 'Show git branches' })
-    keymap.set('n', '<leader>ogc', '<cmd>Telescope git_commits<cr>', { desc = 'Show git commit' })
-    keymap.set('n', '<leader>ogs', '<cmd>Telescope git_status<cr>', { desc = 'Show git status' })
+    keymap.set('n', '<leader>gb', '<cmd>Telescope git_branches<cr>', { desc = 'Show git branches' })
+    keymap.set('n', '<leader>gc', '<cmd>Telescope git_commits<cr>', { desc = 'Show git commit' })
+    keymap.set('n', '<leader>gs', '<cmd>Telescope git_status<cr>', { desc = 'Show git status' })
   end,
 }

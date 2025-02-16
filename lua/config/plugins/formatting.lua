@@ -30,7 +30,7 @@ return {
     -- KEYMAPS --
     local keymap = vim.keymap
 
-    keymap.set({ "n", "v" }, "<leader>mp", function()
+    keymap.set({ "n", "v" }, "<leader>cp", function()
       conform.format({
         lsp_fallback = true,
         async = false,

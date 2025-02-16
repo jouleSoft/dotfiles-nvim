@@ -31,11 +31,11 @@ return {
     -- set keymaps
     local keymap = vim.keymap
 
-    keymap.set("n", "<leader>,,", "<cmd>NvimTreeToggle<CR>", { desc = "NvimTree Toggle" })
-    keymap.set("n", "<leader>,c", "<cmd>NvimTreeCollapse<CR>", { desc = "Collapse" })
-    keymap.set("n", "<leader>,f", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Find file" })
-    keymap.set("n", "<leader>,p", "<cmd>NvimTreeClipboard<CR>", { desc = "Clipboard" })
-    keymap.set("n", "<leader>,r", "<cmd>NvimTreeRefresh<CR>", { desc = "Refresh" })
-    keymap.set("n", "<leader>,w", "<cmd>cd ~/workspace<cr><cmd>NvimTreeToggle<cr>", { desc = "Toggle in ~/workspace" })
+    keymap.set("n", "<leader>,", "<cmd>NvimTreeToggle<CR>", { desc = "NvimTree Toggle" })
+    keymap.set("n", "<leader>nc", "<cmd>NvimTreeCollapse<CR>", { desc = "Collapse" })
+    keymap.set("n", "<leader>nf", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Find file" })
+    keymap.set("n", "<leader>np", "<cmd>NvimTreeClipboard<CR>", { desc = "Clipboard" })
+    keymap.set("n", "<leader>nr", "<cmd>NvimTreeRefresh<CR>", { desc = "Refresh" })
+    keymap.set("n", "<leader>nw", "<cmd>cd ~/workspace<cr><cmd>NvimTreeToggle<cr>", { desc = "Toggle in ~/workspace" })
   end,
 }
