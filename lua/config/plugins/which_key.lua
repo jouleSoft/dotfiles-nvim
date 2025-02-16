@@ -23,19 +23,44 @@ return {
       -- ["<leader>s"] = { name = "+Search" },
       -- ["<leader>w"] = { name = "+Window" },
 
-      { "<leader><tab>", group = "Tabs",    desc = 'Tabs' },
-      { "<leader>b",     group = "Buffers" },
-      { "<leader>f",     group = "File" },
-      --{ "<leader>g",     group = "Git" },
-      { "<leader>h",     group = "Help" },
-      { "<leader>l",     group = "LSP" },
-      { "<leader>lf",    group = "Find" },
+      --{ "<leader>w",     group = "Window" },
+
+      b = {
+        name = 'Buffers',
+      },
+
+      f = {
+        name = 'File',
+      },
+
+      h = {
+        name = 'Help',
+      },
+
+      l = {
+        name = 'LSP',
+        f = { name = 'Find' }
+      },
+
+      o = {
+        name = 'Open',
+        g = { name = 'NeoGit' }
+      },
+
+      s = {
+        name = 'Search',
+      },
+
+      q = {
+        name = 'Quit',
+      },
+
+    }, { prefix = "<leader>" })
+
+    require("which-key").add({
       { "<leader>,",     group = "NvimTree" },
-      { "<leader>o",     group = "Open" },
-      { "<leader>og",    group = "NeoGit" },
-      { "<leader>q",     group = "Quit" },
-      { "<leader>s",     group = "Search" },
-      { "<leader>w",     group = "Window" },
+      { "<leader><tab>", group = "Tabs" },
+      { "<leader>w",     proxy = "<c-w>",   group = "Windows" },
     })
   end,
 }
